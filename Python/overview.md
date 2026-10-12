@@ -94,3 +94,36 @@ Step 4: Launching Tools
 
 • To use the Graphical Interface: Search for and open Anaconda Navigator from your applications menu. From here, you can launch tools like Jupyter Notebook, Spyder, or VS Code with a single click.
 • To launch Jupyter Notebook directly via command line: Open your terminal or Anaconda Prompt, type jupyter notebook, and press Enter.
+
+How to Install Python- 
+
+Step 1: Download the Official Python Installer
+
+1. Open your web browser and go to the official Python Downloads Page.
+2. Click the yellow Download Python 3.x.x button (it will automatically show the latest stable version for your operating system).
+3. Save the installer file to your computer.
+
+Step 2: Run the Installer (Crucial Step)
+
+1. Locate the downloaded file (usually named something like python-3.x.x.exe for Windows or .pkg for Mac) in your Downloads folder and double-click it.
+2. Important (Windows users): At the bottom of the installation window, check the box that says "Add python.exe to PATH".
+	• Why? Checking this box allows you to run Python commands directly from your Terminal or Command Prompt. If you miss this, you will have to manually configure your environment variables later.
+3. (Optional) Check the box for "Use admin privileges" if you want Python available for all profiles on your PC.
+4. Click Install Now.
+
+Step 3: Complete the Setup
+
+1. If a system prompt asks, "Do you want to allow this app to make changes to your device?", click Yes.
+2. Wait a few moments for the installation progress bar to finish.
+3. Once successful, click Close.
+
+Step 4: Verify the Installation
+
+To make sure everything installed properly, you should check your system's command line.
+1. Open your Terminal:
+	• Windows: Press the Windows Key + R, type cmd, and press Enter.
+	• Mac: Press Cmd + Space, type Terminal, and press Enter.
+2. Type the version command:
+	• On Windows, type: python --version and press Enter.
+	• On Mac, type: python3 --version and press Enter.
+3. Confirm: If it's installed correctly, the terminal will print out the specific version number you just installed (e.g., Python 3.13.1)
